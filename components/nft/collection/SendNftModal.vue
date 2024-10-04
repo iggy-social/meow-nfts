@@ -52,7 +52,7 @@
             <small><em>
               <span v-if="userSecondTokenId">Alternativelly you can use your second NFT ID: {{ userSecondTokenId }}.</span>
               Find all NFT IDs that you own 
-              <a target="_blank" :href="`${config.blockExplorerBaseUrl}/token/${cAddress}?tab=inventory&holder_address_hash=${address}`">on block explorer</a>.
+              <a target="_blank" :href="`${$config.blockExplorerBaseUrl}/token/${cAddress}?tab=inventory&holder_address_hash=${address}`">on block explorer</a>.
             </em></small>
           </div>
 
