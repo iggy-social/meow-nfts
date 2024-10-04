@@ -87,17 +87,10 @@
           </li>
           -->
 
-          <!-- Music NFTs -->
+          <!-- New NFTs -->
           <li class="nav-item p-1" @click="closeLeftSidebar" v-if="$config.nftLaunchpadBondingAddress && $config.showFeatures.nftLaunchpad">
-            <NuxtLink class="nav-link" :class="$route.path == '/nft/music-nfts' ? 'active' : ''" aria-current="page" to="/nft/music-nfts">
-              <i class="bi bi-music-note-beamed me-1"></i> Music NFTs
-            </NuxtLink>
-          </li>
-
-          <!-- Video NFTs -->
-          <li class="nav-item p-1" @click="closeLeftSidebar" v-if="$config.nftLaunchpadBondingAddress && $config.showFeatures.nftLaunchpad">
-            <NuxtLink class="nav-link" :class="$route.path == '/nft/video-nfts' ? 'active' : ''" aria-current="page" to="/nft/video-nfts">
-              <i class="bi bi-camera-reels me-1"></i> Video NFTs
+            <NuxtLink class="nav-link" :class="$route.path == '/nft' ? 'active' : ''" aria-current="page" to="/nft">
+              <i class="bi bi-stars me-1"></i> New NFTs
             </NuxtLink>
           </li>
 
@@ -108,13 +101,22 @@
             </NuxtLink>
           </li>
 
-          <!-- New NFTs -->
+          <!-- Music NFTs 
           <li class="nav-item p-1" @click="closeLeftSidebar" v-if="$config.nftLaunchpadBondingAddress && $config.showFeatures.nftLaunchpad">
-            <NuxtLink class="nav-link" :class="$route.path == '/nft' ? 'active' : ''" aria-current="page" to="/nft">
-              <i class="bi bi-stars me-1"></i> New NFTs
+            <NuxtLink class="nav-link" :class="$route.path == '/nft/music-nfts' ? 'active' : ''" aria-current="page" to="/nft/music-nfts">
+              <i class="bi bi-music-note-beamed me-1"></i> Music NFTs
             </NuxtLink>
           </li>
+          -->
 
+          <!-- Video NFTs 
+          <li class="nav-item p-1" @click="closeLeftSidebar" v-if="$config.nftLaunchpadBondingAddress && $config.showFeatures.nftLaunchpad">
+            <NuxtLink class="nav-link" :class="$route.path == '/nft/video-nfts' ? 'active' : ''" aria-current="page" to="/nft/video-nfts">
+              <i class="bi bi-camera-reels me-1"></i> Video NFTs
+            </NuxtLink>
+          </li>
+          -->
+          
           <!-- Most Traded NFTs -->
           <li class="nav-item p-1" @click="closeLeftSidebar" v-if="$config.nftLaunchpadBondingAddress && $config.showFeatures.nftLaunchpad">
             <NuxtLink class="nav-link" :class="$route.path.startsWith('/nft/most-traded') ? 'active' : ''" aria-current="page" to="/nft/most-traded">
