@@ -83,8 +83,18 @@
             data-bs-toggle="modal"
             :data-bs-target="'#deleteModal' + storageId"
           >
-            <i class="bi bi-trash" /> Delete
+            <i class="bi bi-trash"></i> Delete
           </span>
+
+          <!-- Send tip to author -->
+          <NuxtLink
+            v-if="!isCurrentUserAuthor && $config.showFeatures.sendTokens"
+            class="ms-2 cursor-pointer link-without-color"
+            :to="'/send-tokens/?to=' + showDomainOrFullAddress"
+          >
+            <i class="bi bi-send"></i>
+            Send tip
+          </NuxtLink>
 
         </p>
 
