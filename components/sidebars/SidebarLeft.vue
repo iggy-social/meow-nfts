@@ -124,12 +124,13 @@
             </NuxtLink>
           </li>
 
-          <!-- Top-Priced NFTs -->
+          <!-- Top-Priced NFTs 
           <li class="nav-item p-1" @click="closeLeftSidebar" v-if="$config.nftLaunchpadBondingAddress && $config.showFeatures.nftLaunchpad">
             <NuxtLink class="nav-link" :class="$route.path.startsWith('/nft/highest-price') ? 'active' : ''" aria-current="page" to="/nft/highest-price">
               <i class="bi bi-coin me-1"></i> Top-Priced NFTs
             </NuxtLink>
           </li>
+          -->
 
           <!-- Most Holders NFTs -->
           <li class="nav-item p-1" @click="closeLeftSidebar" v-if="$config.nftLaunchpadBondingAddress && $config.showFeatures.nftLaunchpad">
