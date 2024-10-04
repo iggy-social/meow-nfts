@@ -13,10 +13,10 @@
       <h3 class="mb-3 mt-3">The First NFT Launchpad on Superposition</h3>
 
       <p class="text-break mt-3">
-        meowNFTs is the first NFT launchpad and marketplace on Superposition.
+        MeowNFTs is the first NFT launchpad and marketplace on Superposition.
       </p>
 
-      <h5>New kind of NFTs</h5>
+      <h5>A new kind of NFTs</h5>
 
       <p class="text-break mt-3">
         NFTs created on meowNFTs are not your usual NFTs. Each NFT collection has a built-in pool which allows 
@@ -27,11 +27,19 @@
         This means that you can always sell your NFT back to the pool (except if you're the last one owning it 😄).
       </p>
 
+      <h5>Comments under NFTs</h5>
+
+      <p class="text-break mt-3">
+        Comments under NFTs are a new way to interact with fellow NFT holders. The commenting system is completely decentralized. Messages 
+        are stored on Arweave, and its ID is stored on the Superposition blockchain.
+      </p>
+
       <h5>Useful links</h5>
 
       <ul>
+        <li><a href="https://superposition.so" target="_blank">Superposition</a></li>
         <li><a href="https://meow.domains" target="_blank">Meow Domains</a></li>
-        <li><a href="https://github.com/iggy-social/meow-nfts" target="_blank">GitHub</a></li>
+        <li><a href="https://github.com/iggy-social/meow-nfts" target="_blank">Meow NFTs GitHub</a></li>
       </ul>
 
       <h5>Tech stack</h5>
@@ -41,9 +49,9 @@
       </p>
 
       <ul>
-        <li><a href="https://arweave.org/" target="_blank">Arweave</a></li>
-        <li><a href="https://punk.domains/" target="_blank">Punk Domains</a></li>
-        <li><a href="https://iggy.social/" target="_blank">Iggy Social</a></li>
+        <li><a href="https://arweave.org/" target="_blank">Arweave</a> (decentralized storage)</li>
+        <li><a href="https://punk.domains/" target="_blank">Punk Domains</a> (web3 name protocol)</li>
+        <li><a href="https://iggy.social/" target="_blank">Iggy Social</a> (web3 social framework)</li>
         <li>... and others.</li>
       </ul>
 
@@ -58,8 +66,8 @@
 
       <p class="text-break mt-3">
         Feel free to contact 
-        <a href="https://warpcast.com/tempetechie.eth" target="_blank">Tempe Techie 🎩</a> or
-        <a href="https://warpcast.com/tekr0x.eth" target="_blank">Tekr 🎩</a> 
+        <a href="https://warpcast.com/tempetechie.eth" target="_blank">Tempe Techie</a> or
+        <a href="https://warpcast.com/tekr0x.eth" target="_blank">Tekr</a> 
         via Warpcast. 
       </p>
 

@@ -239,6 +239,8 @@ export default {
 
       if (parsedImage && parsedImage.includes("ipfs://")) {
         parsedImage = parsedImage.replace("ipfs://", this.$config.ipfsGateway);
+      } else if (parsedImage && parsedImage.includes("ar://")) {
+        parsedImage = parsedImage.replace("ar://", this.$config.arweaveGateway);
       }
 
       return parsedImage;
@@ -285,7 +287,7 @@ export default {
             this.address, // contract owner
             fetchReferrer(window), // referrer
             this.cleanDescription, // collection description
-            this.cImage, // collection image
+            this.parseImageLink, // collection image
             this.cName, // NFT name
             this.cName, // collection name
             this.cSymbol, // collection symbol
