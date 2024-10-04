@@ -302,6 +302,13 @@ export default {
 
     const { $config, $getFallbackProvider } = useNuxtApp()
 
+    watchAddressChanged(async wallet => {
+      setWallet(wallet.provider)
+      await fetchBalance()
+
+      fetchUserDomain()
+    })
+
     watchWalletChanged(async wallet => {
       setWallet(wallet.provider)
       await fetchBalance()
