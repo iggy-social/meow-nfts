@@ -145,7 +145,11 @@ export default {
     },
 
     insertImageLink(fileUrl) {
-      this.imageUrl = fileUrl;
+      this.imageUrl = fileUrl.replace("?img", "");
+
+      if (this.imageUrl.startsWith("ar://")) {
+        this.imageUrl = this.imageUrl.replace("ar://", this.$config.arweaveGateway);
+      }
     },
   },
 

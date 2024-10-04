@@ -408,7 +408,11 @@ export default {
     },
 
     insertImage(imageUrl) {
-      this.cImage = imageUrl.replace("?.img", "");
+      this.cImage = imageUrl.replace("?img", "");
+
+      if (this.cImage.startsWith("ar://")) {
+        this.cImage = this.cImage.replace("ar://", this.$config.arweaveGateway);
+      }
     },
   },
 
