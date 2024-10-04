@@ -56,7 +56,7 @@
               <p class="me-4" v-if="uAddress">
                 <i class="bi bi-box-arrow-up-right me-2"></i>
                 <a 
-                  :href="`${config.blockExplorerBaseUrl}/token/${config.punkTldAddress}?tab=inventory&holder_address_hash=${uAddress}`" 
+                  :href="`${$config.blockExplorerBaseUrl}/token/${config.punkTldAddress}?tab=inventory&holder_address_hash=${uAddress}`" 
                   target="_blank" 
                   class="body-color hover-color" 
                   style="text-decoration: none;"
