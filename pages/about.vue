@@ -19,7 +19,7 @@
       <h5>A new kind of NFTs</h5>
 
       <p class="text-break mt-3">
-        NFTs created on meowNFTs are not your usual NFTs. Each NFT collection has a built-in pool which allows 
+        NFTs created on MeowNFTs are not your usual NFTs. Each NFT collection has a built-in pool which allows 
         the NFT to be <strong>always liquid</strong>.
       </p>
 

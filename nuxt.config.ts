@@ -107,7 +107,7 @@ export default defineNuxtConfig({
       previewVideoNfts: "/img/covers/cover-video-nfts.png",
       projectMetadataTitle: "MeowNFTs | NFT Launchpad & Marketplace on Superposition",
       projectName: "MeowNFTs",
-      projectDescription: "meowNFTs is a launchpad and marketplace where NFTs are always liquid!",
+      projectDescription: "MeowNFTs is a launchpad and marketplace where NFTs are always liquid!",
       projectTwitter: "https://twitter.com/iggysocial",
       projectUrl: "https://meownfts.com", // without trailing slash!
       punkMinterAddress: "0x7aa8597134eAb3259F4D7d08a09ff69EDf73DdFf", // punk domain minter contract address

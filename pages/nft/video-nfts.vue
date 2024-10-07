@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>Video NFTs on meowNFTs</Title>
+    <Title>Video NFTs on MeowNFTs</Title>
     <Meta property="og:title" :content="'Video NFTs | '+$config.projectMetadataTitle" />
   
     <Meta name="description" content="Video NFTs have come to Superposition. Check them out here!" />

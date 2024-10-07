@@ -1,4 +1,4 @@
-# meowNFTs
+# MeowNFTs
 
 The first NFT launchpad and marketplace on Superposition.
 

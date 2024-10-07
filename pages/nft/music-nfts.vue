@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>Music NFTs on meowNFTs</Title>
+    <Title>Music NFTs on MeowNFTs</Title>
     <Meta property="og:title" :content="'Music NFTs | '+$config.projectMetadataTitle" />
   
     <Meta name="description" content="Music NFTs have come to Superposition. Check them out here!" />
