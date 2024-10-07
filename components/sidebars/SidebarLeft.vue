@@ -213,12 +213,13 @@
             </NuxtLink>
           </li>
 
-          <!-- FAQ -->
+          <!-- FAQ 
           <li class="nav-item p-1" @click="closeLeftSidebar">
             <a class="nav-link" href="https://docs.google.com/document/d/1UTTFLszVAwpd7LbvNMbj4vL1NBaN0ImoZYNPJ4T_EJo/edit?usp=sharing" target="_blank">
               <i class="bi bi-patch-question me-1"></i> FAQ <small><i class="bi bi-box-arrow-up-right ms-1"></i></small>
             </a>
           </li>
+          -->
 
           <!-- Dapps List 
           <li class="nav-item p-1" @click="closeLeftSidebar">
